@@ -1,0 +1,18 @@
+vcf_dir = "/data/cjevol/test/input/"						# vcf directory
+genome_dir = '/data/cjevol/test/genome/'  					# where keeps gff and fasta
+out_dir = '/data/cjevol/test/output/'						# output directory
+unfolded = 1 												# 1:unfolded sfs; 0: folded
+Pop_tags  = 'BWL'  											# Pop tag or Individual IDs separated by comma
+Outgr1 = 'LP197014' 										# outgr1 inds separated by comma
+Outgr2 = 'LP197068' 										# # outgr2 inds separated by comma
+Outgr3 = 'TMS17' 											# # outgr3 inds separated by comma
+num_inds = 10 												# number of individuals to select
+ploid = 2 													# ploid
+threads = 4 												# number of threads 
+filter = T 													# to filter (T/F) genes with quality in R script
+allSite = F													# if vcf contains non-polymorphic sites as well
+# geneList = 'filename'										# if you have a list of genes to calculate piN/piS on 
+size = 1000 												# downsample the data to a size of 1000 
+write_genes = 'output_piNpiS_details' 					# output a detail list of piNpiS for each genes
+
+
